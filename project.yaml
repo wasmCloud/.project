@@ -1,0 +1,71 @@
+# .project metadata for wasmCloud
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "wasmcloud"
+name: "wasmCloud"
+description: "wasmCloud allows for simple, secure, distributed application development using WebAssembly actors and capability providers"
+type: "project"
+project_lead: "brooksmtownsend" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#configuration"
+    primary: true
+
+maturity_log:
+  - phase: "incubating"
+    date: "2021-07-13T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/230" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/wasmCloud/wasmCloud"
+
+website: "https://wasmcloud.com"
+
+artwork: "https://landscape.cncf.io/logos/wasmcloud.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/wasmCloud/wasmCloud/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "wasmCloud/wasmCloud"
+
+social:
+  twitter: "https://twitter.com/wasmcloud"
+
+security:
+  policy:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/wasmCloud/wasmCloud/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Scheduling & Orchestration"
+
+# CLOMonitor Score: 71/100
+# Documentation: 90 | License: 75 | Best Practices: 26 | Security: 73
