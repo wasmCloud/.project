@@ -45,6 +45,7 @@ package_managers:
     - "ghcr.io/wasmcloud/runtime-gateway"
   helm: "oci://ghcr.io/wasmcloud/charts/runtime-operator"
   homebrew: "wasmcloud/wasmcloud/wash"
+  winget: "wasmCloud.wash"
 
 social:
   twitter: "https://twitter.com/wasmcloud"
