@@ -17,10 +17,10 @@ slack_channels:
     primary: true
   - name: "#wasmcloud-dev"
     workspace: "wasmcloud"
-    link: "https://slack.wasmcloud.com/"
+    link: "https://wasmcloud.slack.com/messages/wasmcloud-dev"
   - name: "#maintainers"
     workspace: "wasmcloud"
-    link: "https://slack.wasmcloud.com/"
+    link: "https://wasmcloud.slack.com/messages/maintainers"
 
 maturity_log:
   - phase: "incubating"
