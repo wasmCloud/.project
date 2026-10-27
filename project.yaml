@@ -50,7 +50,10 @@ social:
 security:
   policy:
     path: "https://github.com/wasmCloud/wasmCloud/blob/main/SECURITY.md"
+  threat_model:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/THREAT_MODEL.md"
   contact:
+    email: "security@wasmcloud.com"
     advisory_url: "https://github.com/wasmCloud/wasmCloud/security/advisories/new"
 
 governance:
