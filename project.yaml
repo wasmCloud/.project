@@ -11,7 +11,16 @@ description: "wasmCloud is an open source Cloud Native Computing Foundation (CNC
 type: "project"
 project_lead: "ricochet"
 slack_channels:
+  - name: "#wasmcloud"
+    workspace: "cncf"
+    link: "https://cloud-native.slack.com/messages/wasmcloud"
+    primary: true
+  - name: "#wasmcloud-dev"
+    workspace: "wasmcloud"
+    link: "https://slack.wasmcloud.com/"
   - name: "#maintainers"
+    workspace: "wasmcloud"
+    link: "https://slack.wasmcloud.com/"
 
 maturity_log:
   - phase: "incubating"
@@ -43,6 +52,7 @@ artwork: "https://landscape.cncf.io/logos/wasmcloud.svg"
 
 social:
   twitter: "https://twitter.com/wasmcloud"
+  slack: "https://slack.wasmcloud.com/"
 
 security:
   policy:
