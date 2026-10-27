@@ -12,9 +12,12 @@ type: "project"
 project_lead: "ricochet"
 slack_channels:
   - name: "#wasmcloud"
+    workspace: "wasmcloud"
+    link: "https://wasmcloud.slack.com/archives/CS38R7N9Y"
+    primary: true
+  - name: "#wasmcloud"
     workspace: "cncf"
     link: "https://cloud-native.slack.com/messages/wasmcloud"
-    primary: true
   - name: "#maintainers"
     workspace: "wasmcloud"
     link: "https://wasmcloud.slack.com/messages/maintainers"
@@ -49,7 +52,7 @@ artwork: "https://landscape.cncf.io/logos/wasmcloud.svg"
 
 social:
   twitter: "https://twitter.com/wasmcloud"
-  slack: "https://slack.wasmcloud.com/"
+  slack: "https://wasmcloud.slack.com/"
 
 security:
   policy:
