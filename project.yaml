@@ -15,9 +15,6 @@ slack_channels:
     workspace: "cncf"
     link: "https://cloud-native.slack.com/messages/wasmcloud"
     primary: true
-  - name: "#wasmcloud-dev"
-    workspace: "wasmcloud"
-    link: "https://wasmcloud.slack.com/messages/wasmcloud-dev"
   - name: "#maintainers"
     workspace: "wasmcloud"
     link: "https://wasmcloud.slack.com/messages/maintainers"
