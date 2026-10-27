@@ -53,6 +53,8 @@ artwork: "https://landscape.cncf.io/logos/wasmcloud.svg"
 social:
   twitter: "https://twitter.com/wasmcloud"
   slack: "https://wasmcloud.slack.com/"
+  youtube: "https://www.youtube.com/wasmcloud"
+  linkedin: "https://www.linkedin.com/company/wasmCloud/"
 
 security:
   policy:
