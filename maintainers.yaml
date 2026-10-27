@@ -16,3 +16,12 @@ maintainers:
           - cdmurph32
           - Aditya1404Sal
           - vados-cosmonic
+      - name: "wash-maintainers"
+        members:
+          - ricochet
+          - brooksmtownsend
+          - cdmurph32
+          - Aditya1404Sal
+          - vados-cosmonic
+          - if0ne
+          - jfleitz
