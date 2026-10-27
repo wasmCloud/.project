@@ -1,9 +1,6 @@
 # .project metadata for wasmCloud
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add adopters list (ADOPTERS.md)
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "wasmcloud"
 name: "wasmCloud"
@@ -41,20 +38,24 @@ website: "https://wasmcloud.com"
 
 artwork: "https://landscape.cncf.io/logos/wasmcloud.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/wasmCloud/wasmCloud/blob/main/ADOPTERS.md"
-
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "wasmCloud/wasmCloud"
+package_managers:
+  docker:
+    - "ghcr.io/wasmcloud/wash"
+    - "ghcr.io/wasmcloud/runtime-operator"
+    - "ghcr.io/wasmcloud/runtime-gateway"
+  helm: "oci://ghcr.io/wasmcloud/charts/runtime-operator"
+  homebrew: "wasmcloud/wasmcloud/wash"
 
 social:
   twitter: "https://twitter.com/wasmcloud"
   slack: "https://wasmcloud.slack.com/"
   youtube: "https://www.youtube.com/wasmcloud"
   linkedin: "https://www.linkedin.com/company/wasmCloud/"
+
+audits:
+  - date: "2023-10-17T00:00:00Z"
+    type: "security"
+    url: "https://ostif.org/wp-content/uploads/2023/10/wasmcloud-audit-ostif-trail-of-bits-final.pdf"
 
 security:
   policy:
@@ -68,15 +69,36 @@ security:
 governance:
   contributing:
     path: "https://github.com/wasmCloud/wasmCloud/blob/main/CONTRIBUTING.md"
+  codeowners:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/.github/CODEOWNERS"
+  governance_doc:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/GOVERNANCE.md"
+  decision_making_process:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/GOVERNANCE.md#decision-making-at-the-wasmcloud-org-level"
+  roles_and_teams:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/MAINTAINERS.md"
   code_of_conduct:
     path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+  contributor_ladder:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/CONTRIBUTION_LADDER.md"
+  comms_channels:
+    path: "https://github.com/wasmCloud/wasmCloud/blob/main/GOVERNANCE.md#communications"
+  community_calendar:
+    path: "https://wasmcloud.com/community/"
+  maintainer_lifecycle:
+    onboarding_doc:
+      path: "https://github.com/wasmCloud/wasmCloud/blob/main/GOVERNANCE.md#new-maintainer-onboarding"
+    progression_ladder:
+      path: "https://github.com/wasmCloud/wasmCloud/blob/main/CONTRIBUTION_LADDER.md"
+    offboarding_policy:
+      path: "https://github.com/wasmCloud/wasmCloud/blob/main/GOVERNANCE.md#stepping-down-as-a-maintainer"
 
 legal:
   license:
     path: "https://github.com/wasmCloud/wasmCloud/blob/main/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
@@ -87,6 +109,3 @@ documentation:
 landscape:
   category: "Orchestration & Management"
   subcategory: "Scheduling & Orchestration"
-
-# CLOMonitor Score: 71/100
-# Documentation: 90 | License: 75 | Best Practices: 26 | Security: 73
