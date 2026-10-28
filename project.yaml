@@ -58,6 +58,9 @@ audits:
     type: "security"
     url: "https://ostif.org/wp-content/uploads/2023/10/wasmcloud-audit-ostif-trail-of-bits-final.pdf"
 
+adopters:
+  path: "https://github.com/wasmCloud/wasmCloud/blob/main/ADOPTERS.md"
+
 security:
   policy:
     path: "https://github.com/wasmCloud/wasmCloud/blob/main/SECURITY.md"
