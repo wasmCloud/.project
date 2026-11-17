@@ -36,7 +36,7 @@ repositories:
 
 website: "https://wasmcloud.com"
 
-artwork: "https://landscape.cncf.io/logos/wasmcloud.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/wasmcloud"
 
 package_managers:
   docker:
